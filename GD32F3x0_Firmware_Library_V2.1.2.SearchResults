@@ -1,0 +1,32 @@
+---- usart_data_transmit Matches (31 in 28 files) ----
+Gd32f3x0_it.c (gd32f3x0_firmware_library_v2.1.2\examples\usart\receiver_timeout):        usart_data_transmit(EVAL_COM, txbuffer[txcount++]);
+Gd32f3x0_it.c (gd32f3x0_firmware_library_v2.1.2\examples\usart\transmitter&receiver_interrupt):        usart_data_transmit(EVAL_COM, transmitter_buffer[txcount++]);
+Gd32f3x0_usart.c (gd32f3x0_firmware_library_v2.1.2\firmware\gd32f3x0_standard_peripheral\source):void usart_data_transmit(uint32_t usart_periph, uint32_t data)
+Gd32f3x0_usart.h (gd32f3x0_firmware_library_v2.1.2\firmware\gd32f3x0_standard_peripheral\include):void usart_data_transmit(uint32_t usart_periph, uint32_t data);
+Main.c (gd32f3x0_firmware_library_v2.1.2\examples\adc\oversample_shift):    usart_data_transmit(EVAL_COM, (uint8_t)ch);
+Main.c (gd32f3x0_firmware_library_v2.1.2\examples\adc\regular_channel_with_dma):    usart_data_transmit(EVAL_COM, (uint8_t)ch);
+Main.c (gd32f3x0_firmware_library_v2.1.2\examples\adc\resolution):    usart_data_transmit(EVAL_COM, (uint8_t)ch);
+Main.c (gd32f3x0_firmware_library_v2.1.2\examples\adc\temperature_vref):    usart_data_transmit(EVAL_COM, (uint8_t)ch);
+Main.c (gd32f3x0_firmware_library_v2.1.2\examples\i2c\i2c_eeprom):    usart_data_transmit(EVAL_COM, (uint8_t)ch);
+Main.c (gd32f3x0_firmware_library_v2.1.2\examples\i2c\i2c_eeprom_dma):    usart_data_transmit(EVAL_COM, (uint8_t)ch);
+Main.c (gd32f3x0_firmware_library_v2.1.2\examples\i2c\i2c_eeprom_interrupt):    usart_data_transmit(EVAL_COM, (uint8_t)ch);
+Main.c (gd32f3x0_firmware_library_v2.1.2\examples\rcu\reset_source_detect):    usart_data_transmit(EVAL_COM, (uint8_t)ch);
+Main.c (gd32f3x0_firmware_library_v2.1.2\examples\rcu\system_clock_switch):    usart_data_transmit(EVAL_COM, (uint8_t)ch);
+Main.c (gd32f3x0_firmware_library_v2.1.2\examples\rtc\calendar_alarm):    usart_data_transmit(EVAL_COM, (uint8_t) ch);
+Main.c (gd32f3x0_firmware_library_v2.1.2\examples\rtc\tamper_with_timestamp):    usart_data_transmit(EVAL_COM, (uint8_t) ch);
+Main.c (gd32f3x0_firmware_library_v2.1.2\examples\rtc\timestamp):    usart_data_transmit(EVAL_COM, (uint8_t) ch);
+Main.c (gd32f3x0_firmware_library_v2.1.2\examples\timer\timer2_inputcapture):    usart_data_transmit(EVAL_COM, (uint8_t) ch);
+Main.c (gd32f3x0_firmware_library_v2.1.2\examples\timer\timer2_pwminputcapture):    usart_data_transmit(EVAL_COM, (uint8_t) ch);
+Main.c (gd32f3x0_firmware_library_v2.1.2\examples\usart\auto_baudrate_detect):    usart_data_transmit(EVAL_COM, (uint8_t) ch);
+Main.c (gd32f3x0_firmware_library_v2.1.2\examples\usart\dma_transmitter&receiver):    usart_data_transmit(USART0, (uint8_t) ch);
+Main.c (gd32f3x0_firmware_library_v2.1.2\examples\usart\dma_transmitter&receiver_interrupt):    usart_data_transmit(USART0, (uint8_t)ch);
+Main.c (gd32f3x0_firmware_library_v2.1.2\examples\usart\half_duplex_transmitter&receiver):        usart_data_transmit(USART0, transmitter_buffer0[txcount0++]);
+Main.c (gd32f3x0_firmware_library_v2.1.2\examples\usart\half_duplex_transmitter&receiver):        usart_data_transmit(USART1, transmitter_buffer1[txcount1++]);
+Main.c (gd32f3x0_firmware_library_v2.1.2\examples\usart\half_duplex_transmitter&receiver):    usart_data_transmit(EVAL_COM, (uint8_t) ch);
+Main.c (gd32f3x0_firmware_library_v2.1.2\examples\usart\idle_receiver_interrupt):                usart_data_transmit(USART0, rxbuffer[tx_count]);
+Main.c (gd32f3x0_firmware_library_v2.1.2\examples\usart\printf):    usart_data_transmit(USART0, (uint8_t) ch);
+Main.c (gd32f3x0_firmware_library_v2.1.2\examples\usart\receiver_timeout):    usart_data_transmit(USART0, (uint8_t)ch);
+Main.c (gd32f3x0_firmware_library_v2.1.2\examples\usart\synchronous):        usart_data_transmit(USART0, txbuffer1[tx_counter1++]);
+Main.c (gd32f3x0_firmware_library_v2.1.2\examples\usart\synchronous):        usart_data_transmit(USART0, DYMMY_BYTE);
+Main.c (gd32f3x0_firmware_library_v2.1.2\examples\usart\transmitter&receiver_interrupt):    usart_data_transmit(USART0, (uint8_t) ch);
+Main.c (gd32f3x0_firmware_library_v2.1.2\template):    usart_data_transmit(EVAL_COM, (uint8_t)ch);
